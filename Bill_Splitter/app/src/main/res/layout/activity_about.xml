@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    tools:context=".About">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/billsplitter5"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                𝚂𝚙𝚕(𝚒𝚃) 𝚒𝚜 𝚝𝚑𝚎 𝚎𝚊𝚜𝚒𝚎𝚜𝚝 𝚠𝚊𝚢 𝚝𝚘 𝚜𝚑𝚊𝚛𝚎 𝚎𝚡𝚙𝚎𝚗𝚜𝚎𝚜 𝚠𝚒𝚝𝚑 𝚏𝚛𝚒𝚎𝚗𝚍𝚜 𝚊𝚗𝚍 𝚏𝚊𝚖𝚒𝚕𝚢 𝚊𝚗𝚍 𝚜𝚝𝚘𝚙 𝚜𝚝𝚛𝚎𝚜𝚜𝚒𝚗𝚐 𝚊𝚋𝚘𝚞𝚝 “𝚠𝚑𝚘 𝚘𝚠𝚎𝚜 𝚠𝚑𝚘.” 𝙾𝚞𝚛 𝚖𝚒𝚜𝚜𝚒𝚘𝚗 𝚒𝚜 𝚝𝚘 𝚛𝚎𝚍𝚞𝚌𝚎 𝚝𝚑𝚎 𝚜𝚝𝚛𝚎𝚜𝚜 𝚊𝚗𝚍 𝚊𝚠𝚔𝚠𝚊𝚛𝚍𝚗𝚎𝚜𝚜 𝚝𝚑𝚊𝚝 𝚖𝚘𝚗𝚎𝚢 𝚙𝚕𝚊𝚌𝚎𝚜 𝚘𝚗 𝚘𝚞𝚛 𝚖𝚘𝚜𝚝 𝚒𝚖𝚙𝚘𝚛𝚝𝚊𝚗𝚝 𝚛𝚎𝚕𝚊𝚝𝚒𝚘𝚗𝚜𝚑𝚒𝚙𝚜. 𝙽𝚘 𝚖𝚘𝚛𝚎 𝚏𝚒𝚍𝚍𝚕𝚒𝚗𝚐 𝚊𝚋𝚘𝚞𝚝 𝚠𝚒𝚝𝚑 𝚌𝚑𝚊𝚗𝚐𝚎, 𝚕𝚘𝚜𝚝 𝚛𝚎𝚌𝚎𝚒𝚙𝚝𝚜, 𝚘𝚛 𝚍𝚒𝚜𝚊𝚐𝚛𝚎𝚎𝚖𝚎𝚗𝚝𝚜 𝚊𝚋𝚘𝚞𝚝 𝚝𝚑𝚎 𝚋𝚊𝚕𝚊𝚗𝚌𝚎. 𝚂𝚒𝚖𝚙𝚕𝚢 𝚎𝚗𝚝𝚎𝚛 𝚊𝚕𝚕 𝚢𝚘𝚞𝚛 𝚜𝚑𝚊𝚛𝚎𝚍 𝚎𝚡𝚙𝚎𝚗𝚜𝚎𝚜 𝚊𝚗𝚍 𝚂𝚙𝚕(𝚒𝚃) 𝚜𝚑𝚘𝚠𝚜 𝚢𝚘𝚞 𝚠𝚑𝚘 𝚘𝚠𝚎𝚜 𝚑𝚘𝚠 𝚖𝚞𝚌𝚑 𝚝𝚘 𝚠𝚑𝚘𝚖."
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:id="@+id/t1"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:shadowColor="@android:color/black"
+        android:shadowRadius="2"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:visibility="visible"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚍 𝙱𝚢: \n
+𝙶𝚘𝚔𝚞𝚕 𝚂\n
+𝙰𝚊𝚍𝚒𝚝𝚑𝚢𝚊 𝚅\n
+𝙺𝚊𝚛𝚝𝚑𝚒𝚔 𝚁𝚊𝚘 𝙼"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:id="@+id/t2"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:shadowColor="@android:color/black"
+        android:shadowRadius="2"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:visibility="visible"
+        />
+
+</LinearLayout>
